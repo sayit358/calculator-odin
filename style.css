@@ -1,0 +1,39 @@
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calc-number {
+  color: blue;
+  min-width: 62px;
+}
+
+.operators button {
+  color: red;
+}
+
+#display {
+  text-align: right;
+}
+
+.operators {
+  display: flex;
+  flex-direction: column;
+}
+
+.numbers {
+  flex: 1 0 auto;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.window-body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

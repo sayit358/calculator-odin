@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RPN Calculator</title>
+    <script src="index.js" defer></script>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/xp.css" /> -->
+    <link rel="stylesheet" href="https://unpkg.com/7.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="window" style="width: 300px">
+      <div class="title-bar">
+        <div class="title-bar-text">RPN Calculator</div>
+        <div class="title-bar-controls">
+          <button aria-label="Minimize"></button>
+          <button aria-label="Maximize"></button>
+          <button aria-label="Close"></button>
+        </div>
+      </div>
+      <div class="window-body">
+        <div><input readonly type="text" placeholder="RPN" id="display" /></div>
+        <div class="buttons">
+          <div class="numbers">
+            <div>
+              <button class="calc-number">1</button>
+              <button class="calc-number">2</button>
+              <button class="calc-number">3</button>
+            </div>
+            <div>
+              <button class="calc-number">4</button>
+              <button class="calc-number">5</button>
+              <button class="calc-number">6</button>
+            </div>
+            <div>
+              <button class="calc-number">7</button>
+              <button class="calc-number">8</button>
+              <button class="calc-number">9</button>
+            </div>
+            <div>
+              <button class="calc-number">.</button>
+              <button class="calc-number">0</button>
+              <button class="calc-number">-</button>
+            </div>
+          </div>
+          <div class="operators">
+            <button class="calc-button">⌫</button>
+            <button class="calc-button">+</button>
+            <button class="calc-button">-</button>
+            <button class="calc-button">*</button>
+            <button class="calc-button">/</button>
+            <button class="calc-button">Enter/Clear</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <a href="https://en.wikipedia.org/wiki/Reverse_Polish_notation"
+      >What is RPN?</a
+    >
+  </body>
+</html>
